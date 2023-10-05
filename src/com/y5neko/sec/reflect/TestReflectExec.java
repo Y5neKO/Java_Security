@@ -24,7 +24,7 @@ public class TestReflectExec {
         Method method = clazz.getMethod("exec", String.class);
 
         //invoke反射调用
-        Process process = (Process)method.invoke(o,"cmd /c \"whoami && calc\"");
+        Process process = (Process)method.invoke(o,"cmd /c \"whoami /all && calc\"");
 
         //InputStream读取输入流
         InputStream in = process.getInputStream();
