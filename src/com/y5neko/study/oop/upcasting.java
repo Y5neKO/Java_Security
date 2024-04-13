@@ -8,16 +8,12 @@
 
 package com.y5neko.study.oop;
 
-public class Student extends Person1 {
-    protected Book book;
-    private int score;
+public class upcasting {
+    Student student = new Student();
+    Person1 person1 = new Person1();
+    Person1 person2 = new Student();
 
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public int getScore() {
-        return score;
-    }
+    Object o = person2;
+    Object o2 = person1;
+    Object o3 = student;
 }

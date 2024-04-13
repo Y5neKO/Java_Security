@@ -8,16 +8,15 @@
 
 package com.y5neko.study.oop;
 
-public class Student extends Person1 {
-    protected Book book;
-    private int score;
-
-
-    public void setScore(int score) {
-        this.score = score;
+public class override_test {
+    public static void main(String[] args) {
+        Student1 student1 = new Student1();
+        student1.run();
     }
-
-    public int getScore() {
-        return score;
+}
+class Student1 extends Person1{
+    @Override
+    public void run(){
+        System.out.println("Student1 run");
     }
 }

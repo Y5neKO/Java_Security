@@ -8,16 +8,10 @@
 
 package com.y5neko.study.oop;
 
-public class Student extends Person1 {
-    protected Book book;
-    private int score;
+public class downcasting {
+    Person1 person1 = new Student();    //向上转型成功
+    Person1 person2 = new Person1();
+    Student student1 = (Student) person1;   //向下转型成功,因为person1本身就是指向Student
+    Student student2 = (Student) person2;   //向下转型失败,将 'person2' 转换为 'Student' 会为任意非 null 值生成 'ClassCastException'
 
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public int getScore() {
-        return score;
-    }
 }

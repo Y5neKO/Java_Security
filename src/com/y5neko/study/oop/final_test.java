@@ -8,16 +8,14 @@
 
 package com.y5neko.study.oop;
 
-public class Student extends Person1 {
-    protected Book book;
-    private int score;
+public final class final_test {
+    String name = "y5neko";
 
-
-    public void setScore(int score) {
-        this.score = score;
-    }
-
-    public int getScore() {
-        return score;
+    private void setName(String name) {
+        this.name = name;
     }
 }
+//
+//class test extends final_test {
+//
+//}
