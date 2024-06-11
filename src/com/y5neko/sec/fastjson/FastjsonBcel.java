@@ -10,7 +10,7 @@ package com.y5neko.sec.fastjson;
 
 import com.alibaba.fastjson.JSON;
 import com.sun.org.apache.bcel.internal.classfile.Utility;
-import com.sun.org.apache.bcel.internal.util.ClassLoader;
+//import com.sun.org.apache.bcel.internal.util.ClassLoader;
 import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 
 import java.io.ByteArrayOutputStream;
