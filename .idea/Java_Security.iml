@@ -10,5 +10,6 @@
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="apache.tomcat.dbcp" level="project" />
     <orderEntry type="library" name="ch.qos.logback.classic" level="project" />
+    <orderEntry type="library" name="classes" level="project" />
   </component>
 </module>

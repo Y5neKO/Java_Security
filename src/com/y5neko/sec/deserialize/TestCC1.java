@@ -34,7 +34,7 @@ public class TestCC1 {
 
 
         //Class rt = Class.forName("java.lang.Runtime");
-        //Class rt = Runtime.class;
+//        Class rt = Runtime.class;
 //        //普通反射
 //        Method getRuntimeMethod = rt.getMethod("getRuntime",null);
 //        Runtime runtime = (Runtime) getRuntimeMethod.invoke(null,null);
@@ -90,11 +90,11 @@ public class TestCC1 {
         Object object = constructor.newInstance(Target.class, transformedMap);
 
         serialize(object);
-        unserialize("H:\\学习记录\\学习记录Markdown\\Java安全通用\\CC1");
+        unserialize("C:\\Y5neKO\\Project\\Java_Project\\Java_Security\\src\\com\\y5neko\\sec\\deserialize\\CC1");
     }
 
     public static void serialize(Object object) throws IOException {
-        ObjectOutputStream oos=new ObjectOutputStream(Files.newOutputStream(Paths.get("H:\\学习记录\\学习记录Markdown\\Java安全通用\\CC1")));
+        ObjectOutputStream oos=new ObjectOutputStream(Files.newOutputStream(Paths.get("C:\\Y5neKO\\Project\\Java_Project\\Java_Security\\src\\com\\y5neko\\sec\\deserialize\\CC1")));
         oos.writeObject(object);
     }
 

@@ -50,7 +50,7 @@ public class TestCC1Exp {
         Object object = constructor.newInstance(Target.class, transformedMap);
 
         //序列化最终生成的AnnotationInvocationHandler对象
-        Path path = Paths.get("H:\\学习记录\\学习记录Markdown\\Java安全通用\\CC1");
+        Path path = Paths.get("C:\\Y5neKO\\Project\\Java_Project\\Java_Security\\src\\com\\y5neko\\sec\\deserialize\\CC1");
         ObjectOutputStream oos=new ObjectOutputStream(Files.newOutputStream(path));
         oos.writeObject(object);
         //反序列化
